@@ -71,10 +71,11 @@ export OPENAI_TYPE=""
 ```
 
 Then, run the evaluation script as follows:
-```
+```bash
 python run_eval.py 
-    --result_file
-    --version 
+    --result_file <path_to_result_file>
+    --version <your_version>
+    --on_openai  # Include this flag if using OpenAI
 ```
 
 
