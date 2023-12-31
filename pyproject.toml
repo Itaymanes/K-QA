@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "K-QA"
+version = "0.1.0"
+description = ""
+authors = ["Itay Manes <itay.manes@khealth.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+langchain = "0.0.327"
+pandas = "^2.1.4"
+openai = "^0.27.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

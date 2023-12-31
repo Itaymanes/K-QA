@@ -1,0 +1,51 @@
+# OVERALL INSTRUCTIONS
+- You have a deep understanding of logical relationships, such as entailment and contradiction, to evaluate given triplets of (question, premise, hypothesis).
+
+# TASK INSTRUCTIONS
+Your goal is to determine whether the Premise effectively entails the corresponding Hypothesis. Carefully analyze each triplet, focusing on details.
+- If the premise disagrees with, is unrelated to, or does not support the hypothesis, there is not enough evidence to determine whether it is true, and so you answer should be False.
+- Approach each question methodically, considering the step-by-step process outlined below.
+
+# INPUT DATA
+Question: What does trich test for? Let's think step by step.
+Premise: The term "trich test" can refer to two different medical tests, depending on the context. Here are the two possibilities:
+Trichomoniasis Test: Trichomoniasis is a sexually transmitted infection (STI) caused by the parasite Trichomonas vaginalis.
+The trichomoniasis test, also known as a trich test or trichomonas test, is used to detect the presence of this parasite in the body. The test is typically performed on a sample of vaginal discharge in women or urine in men.
+Trichogram: A trichogram is a diagnostic test used to evaluate hair loss and assess the health and condition of hair follicles. It involves plucking a small number of hairs from the scalp and examining them under a microscope.
+It's important to note that without additional context, it's difficult to determine which specific test you are referring to.
+Hypothesis: Trichamoniasis- a parasitic infection that can cause your symptoms.
+Answer: According to the premise "trich test" refer to two different medical tests. A Trichamoniasis test is one of them, which is used to detect this parasite's presence.
+As the hypothesis suggested, the trich test is used to diagnose parasitic infections. The premise entails the hypothesis. The answer is True.
+###
+Question: Can diabetics eat sweets? Let's think step by step.
+Premise: Individuals with diabetes are recommended to limit their consumption of sweets to one or two times per week.
+It is also suggested to be selective with desserts and to focus on foods with a low glycemic index, such as high fiber foods like whole grains and legumes, as well as certain lower sugar fruits like berries, melons, and apples.
+Hypothesis: After eating sweets, must monitor blood and sugar level
+Answer: The premise suggests that diabetics can eat sweets but limit their consumption. The hypothesis highlights the necessity of monitor blood and sugar after eating sweets.
+There is no relationship between the premise and hypothesis, therefore they do not entail one another. The answer is False.
+###
+Question: Can diabetics eat sweets? Let's think step by step.
+Premise: Individuals with diabetes are recommended to limit their consumption of sweets to one or two times per week.
+It is also suggested being selective with desserts and to focus on foods with a low glycemic index, such as high fiber foods like whole grains and legumes, as well as certain lower sugar fruits like berries, melons, and apples.
+Hypothesis: It is recommended that diabetics avoid sweets.
+Answer: The premise suggests that diabetics can eat sweets but limit their consumption. According to the hypothesis diabetics should avoid sweets.
+The premise allows diabetics to consume sweets in moderate consumption, while the hypothesis prohibits them. There premise don't entail the hypothesis. The answer is False.
+###
+Question: What is the best hypertension treatment for patients who are also have Crohn's disease? Let's think step by step.
+Premise: For patients with Crohn's disease and hypertension, the recommended treatment is a combination of lifestyle changes and medication. The ACC/AHA recommends initiation of antihypertensive drug therapy at a BP \u2265130/80 mm Hg for adults with hypertension.
+It is also important to monitor your blood pressure regularly to make sure that it is under control.
+Hypothesis: reducing sodium intake, are the first-line treatment for hypertension in individuals with  Crohn's disease
+Answer: The premise suggests that the recommended treatment for patients with diabetes and hypertension is a combination of lifestyle changes and medication, including antihypertensive drug therapy. The hypothesis focuses on reducing sodium intake as the first-line treatment.
+A reduction in sodium intake could be a part of the lifestyle changes, but since it is not mentioned in the premise, the premise do not entail the hypothesis. The answer is False.
+###
+Question: 25 yo female with right lower abdominal pain, what might be causing it? Let's think step by step.
+Premise: Right lower abdominal pain in a 25-year-old female could be caused by a variety of medical conditions.
+Some potential causes include: - Appendicitis: inflammation of the appendix - Appendiceal abscess: a collection of pus in the appendix - Ovarian cyst: a fluid-filled sac on the ovary - Ectopic pregnancy: a pregnancy that occurs outside the uterus.
+Hypothesis: possible cause for right lower abdominal pain in a young female can be Appendicitis.
+Answer: The premise lists several potential causes of right lower abdominal pain in a 25-year-old female, including appendicitis. The hypothesis states that Appendicitis could be a cause of right lower abdominal pain in a 25-year-old female.
+Both the premise and hypothesis mention appendicitis as a possible cause of pain, so the premise entails the hypothesis. The answer is True.
+###
+Question: {question} Let's think step by step.
+Premise: {llm_answer}
+Hypothesis: {answer}
+Answer:
