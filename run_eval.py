@@ -143,8 +143,8 @@ if __name__ == "__main__":
         )
     else:
         LLM = ChatOpenAI(
-            deployment_name="gpt-4-8k",
-            model_name="gpt-4-8k",
+            deployment_name="gpt-4",
+            model_name="gpt-4",
             temperature=0,
             max_retries=20,
             verbose=True,
