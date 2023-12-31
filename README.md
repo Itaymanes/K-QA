@@ -1,7 +1,7 @@
 # K-QA Benchmark
-Dataset and evaluation code of K-QA.
+Dataset and evaluation code for K-QA benchmark.
 
-This repository provides the dataset and evaluation code for K-QA, a comprehensive Question and Answer dataset in real-world medical . 
+This repository provides the dataset and evaluation code for K-QA, a comprehensive Question and Answer dataset in real-world medical. 
 You can find detailed information on the dataset curation and evaluation metric computation in our full [paper]().
 
 To explore the results of 7 state-of-the-art models, check out [this space](https://huggingface.co/spaces/Itaykhealth/K-QA).
