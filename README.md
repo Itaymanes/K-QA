@@ -82,5 +82,12 @@ python run_eval.py
 
 #### Cite Us
 ```markdown
-[Include citation information here]
+@misc{manes2024kqa,
+      title={K-QA: A Real-World Medical Q&A Benchmark}, 
+      author={Itay Manes and Naama Ronn and David Cohen and Ran Ilan Ber and Zehavi Horowitz-Kugler and Gabriel Stanovsky},
+      year={2024},
+      eprint={2401.14493},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
 ```
