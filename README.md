@@ -74,7 +74,7 @@ Then, run the evaluation script as follows:
 ```bash
 python run_eval.py 
     --result_file <path_to_result_file>
-    --version <your_version>
+    --version <your_version_name>
     --on_openai  # Include this flag if using OpenAI
 ```
 
